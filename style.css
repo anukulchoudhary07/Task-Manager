@@ -1,0 +1,77 @@
+
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: 'Inter', sans-serif;
+}
+
+
+
+body{
+	width: 100vw;
+	height: 100vh;	
+	/* background-color: rgb(72, 72, 168); */
+	height: 100vh;
+	
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	margin: 8px;
+	color: blanchedalmond;
+	/* background-color: rgb(50, 58, 55); */
+
+}
+.container h1{
+	padding: 12px;
+	margin: 12px;
+}
+.Card{
+	background-color: aliceblue;
+	box-sizing: border-box;
+	width: 100%;
+	max-width: 500%;
+}
+.input-area  {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				padding: 12px ;
+			    margin: 2px;
+			    /* background-color: rgb(129, 231, 197); */
+				size: 12px;
+
+			}
+#task-input {
+				font-size: x-large;
+				padding: 3px;
+				margin: 4px;
+				size: 20px;
+}
+.Task-Section{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 9px;
+}
+
+#add-btn{
+		padding: 12PX;
+		margin: 3px;
+		color: rgb(1, 1, 26);
+		/* background-color: blue; */
+	}
+	footer{
+		gap: 5px;
+	}
+
+	#add-btn h2
+	{
+		padding: 7px;
+		margin: 4px;
+	}
